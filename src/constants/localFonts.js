@@ -3,7 +3,7 @@ const estedadFont = LocalFont({
   src: [
     {
       path: "../../public/fonts/estedad/Estedad-Light.woff2",
-      weight: "500",
+      weight: "300",
       style: "normal",
     },
     {
@@ -18,7 +18,7 @@ const estedadFont = LocalFont({
     },
     {
       path: "../../public/fonts/estedad/Estedad-Medium.woff2",
-      weight: "500",
+      weight: "400",
       style: "normal",
     },
     

@@ -1,5 +1,6 @@
 import estedadFont from "@/constants/localFonts";
 import "./globals.css";
+import Header from "./Header";
 
 
 export const metadata = {
@@ -14,7 +15,7 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning={true}
         className={`${estedadFont.variable} font-sans`}
       >
-       
+       <Header/>
          
           <div className="container xl:max-w-screen-xl bg-red-50">{children}</div>
        

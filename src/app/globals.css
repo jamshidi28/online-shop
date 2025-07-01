@@ -21,7 +21,7 @@
     --color-tint-2: 202, 228, 211;
     --color-tint-1: 229, 242, 233;
     --color-gray-8: 53, 53, 53;
-    --color-gray-7: 117, 117, 117;
+    --color-gray-7: 113, 113, 113;
     --color-gray-6: 173, 173, 173;
     --color-gray-5: 203, 203, 203;
     --color-gray-4: 203, 203, 203;
@@ -39,7 +39,7 @@
     --color-error: 195, 0, 0;
     --color-errorLight: 237, 46, 46;
     --color-errorExtraLight: 255, 242, 242;
-    --color-text:53,53,53;
+    --color-text:71,71,71;
     
   }
 }
