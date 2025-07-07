@@ -1,6 +1,7 @@
 import estedadFont from "@/constants/localFonts";
 import "./globals.css";
 import Header from "./Header";
+import HeroSlider from "@/components/HeroSlider";
 
 
 export const metadata = {
@@ -16,7 +17,7 @@ export default function RootLayout({ children }) {
         className={`${estedadFont.variable} font-sans`}
       >
        <Header/>
-         
+        <HeroSlider/> 
           <div className="container xl:max-w-screen-xl bg-red-50">{children}</div>
        
       </body>
