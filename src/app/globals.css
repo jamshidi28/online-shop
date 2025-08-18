@@ -29,7 +29,7 @@
     --color-gray-2: 249, 249, 249;
     --color-gray-1: 249, 249, 249;
     --color-black: 12, 12, 12;
-    --color-blackShadow: 0, 0, 0, 0.25;
+    --color-blackShadow: 0, 0, 0, 0.15;
     --color-success: 0, 150, 109;
     --color-successLight: 0, 186, 136;
     --color-successExtraLight: 243, 253, 250;
@@ -45,21 +45,27 @@
 }
 
 @layer components {
-  .textField__input {
-    @apply w-full py-3 px-4 rounded-xl bg-gray-100 text-secondary-900 border border-gray-100 outline-none duration-200 transition-all ease-in-out hover:border-primary-300 focus:outline-none focus:border-primary-300 focus:shadow-input-focus focus:bg-white;
-  }
+  /* .textField__input {
+    @apply w-full py-3 px-4 rounded-xl bg-gray-8 text-gray-4 border border-gray-100 outline-none duration-200 transition-all ease-in-out hover:border-gray-3 focus:outline-none focus:border-primary-300 focus:shadow-input-focus focus:bg-gray-1;
+  } */
   .btn {
-    @apply px-2 py-1 font-bold rounded-2xl transition-all duration-300;
+    @apply w-full px-2 py-2  rounded-2xl transition-all duration-300;
   }
   .btn--primary {
-    @apply px-4 py-2 bg-primary rounded text-colortext text-xl shadow-drop-4;
+    @apply px-4 border-primary border-[1.6px] rounded text-primary text-sm outline-none duration-200 transition-all ease-in-out hover:outline-none  hover:shadow-drop-4 ;
   }
-  .table__th {
+  .btn--secondary {
+    @apply px-4 border border-primary bg-primary rounded text-white text-sm ;
+  }
+  .li_style {
+    @apply flex items-center text-gray-8 font-light gap-2 pr-2 hover:text-primary hover:border-r-[3px] border-primary p-2  ;
+  }
+  /* .table__th {
     @apply border-b-2 border-b-gray-500 font-medium p-3 pr-8 pb-3 text-right;
   }
   .table__td {
     @apply border-b  border-b-gray-300 p-3 pr-8 pb-3 text-right;
-  }
+  } */
 
   .swiper-pagination-bullet {
     @apply w-2 h-2 bg-gray-5 rounded-full opacity-70 mx-1 transition-all duration-300;

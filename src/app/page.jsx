@@ -1,9 +1,15 @@
 
+import MainCategories from "./(categories)/categories/_components/MainCategories";
 
-export default function Home() {
-  return <main className=""> 
+async function Home() {
   
-  
-  
-  </main>;
+  // console.log(categories)
+
+  return (
+   <div>
+    <MainCategories/>
+   </div>
+  );
 }
+
+export default Home;
